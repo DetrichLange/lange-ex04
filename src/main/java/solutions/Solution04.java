@@ -9,6 +9,9 @@ import java.util.Scanner;
 /*
 Create a simple mad-lib program that prompts for a noun, a verb, an adverb, and an adjective and
 injects those into a story that you create.
+    Use a single output statement for this program.
+    If your language supports string interpolation or string substitution, use it to build up the output.
+        e.g. use printf() instead of println()
 
 1: Prompt user for noun
 2: Save input to string Inputnoun
@@ -18,7 +21,7 @@ injects those into a story that you create.
 6: Save input to string Inputadverb
 7: Prompt user for adjective
 8: Save input to string Inputadjective
-9: Print "Did you " + Inputverb + " your " + Inputadverb + " " + Inputnoun + " " + Inputadjective + "? That's not very funny, but okay."
+9: Print ("Did you %s your %s %s %s? That's not very funny, but okay.", Inputverb, Inputadjective, Inputnoun, Inputadverb)
  */
 
 public class Solution04
